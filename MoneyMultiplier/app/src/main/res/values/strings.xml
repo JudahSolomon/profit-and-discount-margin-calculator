@@ -1,0 +1,10 @@
+ <resources>
+    <string name="app_name">Money Multiplier</string>
+    <string name="button">Button</string>
+    <string name="text_view">TextView</string>
+    <string name="you_have">You Have:</string>
+    <string name="_0">0</string>
+    <string name="increase">Increase</string>
+    <string name="show_info">Show Info</string>
+    <string name="reset">Reset</string>
+</resources>

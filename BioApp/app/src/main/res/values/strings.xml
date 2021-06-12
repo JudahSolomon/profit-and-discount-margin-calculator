@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BioApp</string>
+    <string name="button">Button</string>
+    <string name="bio_body">
+
+        <b><center><title>Lorem ipsum dolor sit amet, laudem </title> </center></b>
+        <p>equidem mnesarchum cum no,
+            postulant assueverit nam no, eu has nulla conceptam sententiae.</p>
+
+       <p> Nisl laoreet conclusionemque pro ea, ea eos soleat voluptua evertitur,
+        nec suas iisque eu. Altera vocent eam eu. Ea nec quem graeco oblique.
+        Sit pertinax quaestio ei. Usu no debet labore elaboraret, sed suas causae
+        euripidis ad, et graeco latine corrumpit quo.</p>
+        <p>
+        Cu accusamus complectitur sit. Meis efficiendi at cum. Vix falli vocibus et,
+        adolescens voluptatibus cu mel. Eu legimus contentiones pri, an ius eros
+        urbanitas, pro id lorem vitae nominati.</p>
+
+        <p> Nisl laoreet conclusionemque pro ea, ea eos soleat voluptua evertitur,
+        nec suas iisque eu.
+            Nisl laoreet conclusionemque pro ea, ea eos soleat voluptua evertitur,
+        nec suas iisque eu.
+        </p>
+
+        <p>
+        Cu accusamus complectitur sit. Meis efficiendi at cum. Vix falli vocibus et,
+        adolescens voluptatibus cu mel. Eu legimus contentiones pri, an ius eros
+        urbanitas, pro id lorem vitae nominati.</p>
+
+        <p> Nisl laoreet conclusionemque pro ea, ea eos soleat voluptua evertitur,
+        nec suas iisque eu.
+            Nisl laoreet conclusionemque pro ea, ea eos soleat voluptua evertitur,
+        nec suas iisque eu.
+        </p>
+
+    </string>
+    <string name="judah_solomon">Charley Chaplin</string>
+    <string name="enter_hobby_here">Enter Hobby Here</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+</resources>

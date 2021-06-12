@@ -1,0 +1,2 @@
+String euro = Currency.getInstance(Locale.GERMANY).getCurrencyCode();
+String pound = Currency.getInstance(Locale.UK).getCurrencyCode();

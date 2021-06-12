@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:texxt="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="472dp"
+        android:layout_height="183dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/background"
+        texxt:layout_constraintEnd_toEndOf="parent"
+        texxt:layout_constraintHorizontal_bias="0.495"
+        texxt:layout_constraintStart_toStartOf="parent"
+        texxt:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/you_Have"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="400dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/you_have"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        texxt:layout_constraintBottom_toBottomOf="parent"
+        texxt:layout_constraintEnd_toEndOf="parent"
+        texxt:layout_constraintHorizontal_bias="1.0"
+        texxt:layout_constraintStart_toStartOf="parent"
+        texxt:layout_constraintTop_toBottomOf="@+id/imageView"
+        texxt:layout_constraintVertical_bias="0.0"
+        texxt:layout_editor_absoluteY="500dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/increase"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textColor="@color/teal_700"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        texxt:layout_constraintBottom_toBottomOf="parent"
+        texxt:layout_constraintEnd_toEndOf="parent"
+        texxt:layout_constraintStart_toStartOf="parent"
+        texxt:layout_constraintTop_toTopOf="parent"
+        texxt:layout_constraintVertical_bias="0.54"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/increase_Button"
+        android:layout_width="130dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:gravity="center"
+        android:onClick="setIncrease_Button"
+        android:text="@string/increase"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        texxt:layout_constraintBottom_toBottomOf="parent"
+        texxt:layout_constraintStart_toStartOf="parent"
+        texxt:layout_constraintTop_toTopOf="parent"
+        texxt:layout_constraintVertical_bias="0.723"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <TextView
+        android:id="@+id/reset"
+        android:layout_width="86dp"
+        android:layout_height="55dp"
+        android:layout_gravity="left"
+        android:onClick="reset"
+        android:gravity="center"
+        android:text="@string/reset"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        texxt:layout_constraintBottom_toBottomOf="parent"
+        texxt:layout_constraintEnd_toEndOf="parent"
+        texxt:layout_constraintHorizontal_bias="0.232"
+        texxt:layout_constraintStart_toEndOf="@+id/increase_Button"
+        texxt:layout_constraintTop_toTopOf="parent"
+        texxt:layout_constraintVertical_bias="0.726"
+        texxt:layout_editor_absoluteY="530dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="70dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="showInfo"
+
+
+        android:text="Show Info"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        texxt:layout_constraintBottom_toBottomOf="parent"
+        texxt:layout_constraintEnd_toEndOf="parent"
+        texxt:layout_constraintStart_toStartOf="parent"
+        texxt:layout_constraintTop_toTopOf="parent"
+        texxt:layout_constraintVertical_bias="1.1"
+        texxt:layout_editor_absoluteY="500dp" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        texxt:barrierDirection="top" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

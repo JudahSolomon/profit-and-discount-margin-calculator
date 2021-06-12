@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cash Flow</string>
+    <string name="show_Info">showInfo</string>
+    <string name="you_have">You Have:</string>
+    <string name="reset">Reset</string>
+    <string name="increase">Increase</string>
+    <string name="show_info">Show Info</string>
+    <string name="_0">0</string>
+    <string name="todo">TODO</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Profit &amp; Discount Calculator</string>
+    <string name="percentage">Percentage</string>
+    <string name="display_total">$</string>
+    <string name="spinner">Spinner</string>
+    <string name="amount">Amount</string>
+    <string name="calculate">Calculate</string>
+    <string name="profit_and_discount_calculator">calculate you Profit and discount margins
+        with just a click of a button</string>
+    <string name="background">this is the shadow backgroung of the App</string>
+    <string name="other_way_round">Calculate  percentage added between two different prices</string>
+</resources>

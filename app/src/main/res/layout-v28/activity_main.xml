@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Profit and discount calculator"
+        android:textAllCaps="true"
+        android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+        android:gravity="center"
+        android:textColor="@color/original_sea_blue"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.01"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="30dp"
+        app:lottie_rawRes="@raw/financialtransactions"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="@string/amount"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <ImageView
+        android:id="@+id/convert_to_actualamount"
+        android:layout_width="57dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/spinner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        android:src="@drawable/swap_icon"
+        android:contextClickable="true"
+        />
+
+    <EditText
+        android:id="@+id/amount"
+        android:tooltipText="enter Amount"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="@string/amount"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="30dp"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.2"
+        android:autofillHints="" />
+
+
+
+    <EditText
+        android:id="@+id/percentage"
+        android:tooltipText="enter Percentage"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="@string/percentage"
+        android:layout_marginTop="60dp"
+        android:inputType="numberDecimal"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.7"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/calculate"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/bottom_style"
+        style=""
+        android:layout_marginTop="150dp"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.8"/>
+
+    <TextView
+        android:id="@+id/display_total"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="@string/display_total"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
